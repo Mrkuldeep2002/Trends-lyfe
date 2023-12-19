@@ -1,0 +1,50 @@
+li {
+  list-style: none;
+}
+
+.Nav-hover {
+  position: relative;
+  display: inline-block;
+  &:hover {
+    color: #1fab89;
+  }
+
+  &::after {
+    content: "";
+    position: absolute;
+    height: 1px;
+    background-color: #1fab89;
+    bottom: -1px; 
+    left: 0;
+    width: 100%; /* Set width to 100% on hover */
+    transform: scaleX(0); /* Initial scale, making the line invisible */
+   
+    transition: transform 0.3s ease; /* Add transition to the width for the animation */
+
+   
+  }
+  
+&:hover::after {
+    transition: transform 0.3s ease; /* Add transition to the width for the animation */
+    transform: scaleX(1); /* Scale the line to its full width on hover */
+    transform-origin: center; /* Set the origin to the left for scaling */
+  }
+
+}
+
+#footer-hover{
+    &::after {
+    transform-origin: right; }
+    &:hover::after {
+        transition: transform 0.3s ease; 
+        transform: scaleX(1); 
+        transform-origin: LEFT;
+      }
+}
+
+
+. {
+  opacity: 0;
+  transform: translateY(-10px);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
