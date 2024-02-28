@@ -1,5 +1,17 @@
 li {
-  list-style: none;
+  /* list-style: none; */
+}
+
+.button{
+    font-family: "Poppins", Sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    fill: #120202;
+    color: #FFFFFF;
+    background-color: #1FAB89;
+    border-radius: 0px 0px 0px 0px;
+    padding: 18px 40px 18px 40px;
+
 }
 
 .Nav-hover {
@@ -43,8 +55,3 @@ li {
 }
 
 
-. {
-  opacity: 0;
-  transform: translateY(-10px);
-  transition: opacity 0.3s ease, transform 0.3s ease;
-}

@@ -1,0 +1,9 @@
+#chk:checked ~ .login {
+  transform: translateY(-440px);
+}
+#chk:checked ~ .login .label {
+  transform: scale(1);
+}
+#chk:checked ~ .signup .label {
+  transform: scale(0.6);
+}

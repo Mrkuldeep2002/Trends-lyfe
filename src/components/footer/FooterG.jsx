@@ -41,7 +41,6 @@ const FooterG = () => {
     <Grid 
     // alignItems="center"       
     justifyItems="center"
-    bg="#EBEBEB" 
     p="60px 0px 15px 0px"
       gridTemplateColumns={{
         base: "repeat(1,1fr)",
@@ -61,7 +60,7 @@ const FooterG = () => {
               alt=""
               maxW="300px"
             ></Image>
-            <Text textAlign="center" color="#7a7a7a">
+            <Text textAlign="center" color="#A0AEC0">
               {" "}
               TrendLyfe – Be a trendsetter, live the TrendLyfe!
             </Text>
