@@ -245,7 +245,7 @@ const Detail = () => {
               <Box></Box>
             </Stack>
             <Box w="full" bg="#F1F1F1" p="15px 15px 10px" textAlign="center">
-              <Image src="https://trendlyfe.in/wp-content/uploads/2023/06/pay.png"></Image>
+              <Image src="https://www.codeswear.com/pay.png"></Image>
               Guaranteed safe & secure checkout
             </Box>
           </Stack>
